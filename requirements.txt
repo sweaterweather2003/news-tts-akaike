@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+gradio
+requests
+TTS==0.22.0
+torch>=2.2.0
+librosa==0.10.0
+phonemizer==3.2.1
+transformers==4.35.0 # Add to avoid version conflicts
+accelerate==0.24.1 # Ensure compatibility with transformers
